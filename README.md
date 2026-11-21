@@ -3,7 +3,7 @@
 > Projet de data analyse de bout en bout : évolution des températures, analyse des précipitations, comparaison de régions et détection de tendances statistiques, à partir de données publiques réelles.
 > **Outils : Python (pandas, SciPy), statistiques (Mann-Kendall, pente de Sen, régression segmentée), SQL (SQLite), Power BI.**
 
-![Réchauffement mondial](dashboards/dashboard_1.png)
+![Réchauffement mondial](dashboard_1.png)
 
 ## 1. Contexte et questions
 Une collectivité, un gestionnaire d'eau ou un assureur doit savoir **si le climat local change réellement, à quelle vitesse, et où agir en priorité**. Le projet répond à quatre questions :
@@ -71,7 +71,7 @@ Indicateurs construits : anomalies vs normale 1961-1990 de chaque ville ; **jour
 - **Amplification arctique** (1976-2022) : la bande 64°N-90°N se réchauffe de **+0,64 °C/décennie** (IC 0,54-0,73), soit 4,4 fois la zone tropicale (+0,14), et 6 fois l'hémisphère sud (+0,11) ; l'hémisphère nord atteint +0,28.
 - **CO2** : 316 ppm (1959) → **427 ppm** (2025) ; la hausse passe de +0,96 ppm/an (1959-75) à **+2,49 ppm/an** (2010-25). La corrélation avec la température mondiale est forte (r = 0,97 en niveaux ; ≈ +1,1 °C pour +100 ppm). Sur les variations d'une année à l'autre elle tombe à r = 0,32 (p = 0,009) : la variabilité naturelle (El Niño…) domine à court terme. **Deux séries qui montent ensemble ne prouvent pas la causalité à elles seules** ; cette relation empirique n'est pas une mesure de sensibilité climatique.
 
-![Températures](dashboards/dashboard_2.png)
+![Températures](dashboard_2.png)
 
 ### 6.2 Températures : les 7 villes se réchauffent, mais pas au même rythme
 Pente de Sen 1950-2018 (période commune), toutes **significatives** (Mann-Kendall et TFPW) :
@@ -92,7 +92,7 @@ Pente de Sen 1950-2018 (période commune), toutes **significatives** (Mann-Kenda
 - **Saisons** : 27 des 28 combinaisons ville × saison montrent une hausse significative ; les plus fortes sont le printemps (+0,38 °C/décennie) et l'été (+0,36) à Canberra, et le printemps à Adelaide (+0,30).
 - Les anomalies annuelles des villes sont corrélées entre 0,34 et 0,91 : le signal régional est partagé, mais pas uniforme.
 
-![Précipitations](dashboards/dashboard_3.png)
+![Précipitations](ashboard_3.png)
 
 ### 6.3 Précipitations : pas de signal uniforme
 | Ville (période) | Tendance du cumul | Verdict | Autres signaux |
